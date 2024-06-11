@@ -1,0 +1,239 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c08c455d0db1574c9ef35a931eaf482, type: 3}
+  m_Name: Data_level_2
+  m_EditorClassIdentifier: 
+  spiritStoneStart: 300
+  liveStart: 15
+  mapData:
+    listTowerPositions: []
+  towersInLevel:
+  - towerAllowed: 0000000001000000
+  - towerAllowed: 0000000001000000
+  - towerAllowed: 00000000
+  - towerAllowed: 
+  - towerAllowed: 
+  layoutData:
+    spawnersData:
+    - spawnerID: 0
+      position: {x: -8, y: -7}
+    - spawnerID: 1
+      position: {x: 0, y: -7}
+    - spawnerID: 2
+      position: {x: 8, y: 7}
+    pathwaysData:
+    - pathwayID: 0
+      startpoint: {x: -8, y: 7}
+      waypoint:
+      - {x: -8, y: -4}
+      - {x: -5, y: -4}
+      - {x: -5, y: 3}
+      - {x: 0, y: 3}
+      - {x: 0, y: 1}
+    - pathwayID: 1
+      startpoint: {x: -8, y: 7}
+      waypoint:
+      - {x: -8, y: -4}
+      - {x: -5, y: -4}
+      - {x: -5, y: -2}
+      - {x: 5, y: -2}
+      - {x: 5, y: 3}
+      - {x: 0, y: 3}
+      - {x: 1, y: 0}
+    - pathwayID: 2
+      startpoint: {x: 0, y: -7}
+      waypoint:
+      - {x: 0, y: -2}
+      - {x: -5, y: -2}
+      - {x: -2, y: 3}
+      - {x: 0, y: 3}
+      - {x: 0, y: 1}
+    - pathwayID: 3
+      startpoint: {x: 0, y: -7}
+      waypoint:
+      - {x: 0, y: -2}
+      - {x: 5, y: -2}
+      - {x: 5, y: 3}
+      - {x: 0, y: 3}
+      - {x: 0, y: 1}
+    - pathwayID: 4
+      startpoint: {x: 4, y: -7}
+      waypoint:
+      - {x: 8, y: -4}
+      - {x: 5, y: -4}
+      - {x: 5, y: 3}
+      - {x: 0, y: 3}
+      - {x: 0, y: 1}
+    - pathwayID: 5
+      startpoint: {x: 8, y: -7}
+      waypoint:
+      - {x: 8, y: -4}
+      - {x: 5, y: -4}
+      - {x: 5, y: -2}
+      - {x: -5, y: -2}
+      - {x: -5, y: 3}
+      - {x: 0, y: 3}
+      - {x: 0, y: 1}
+  listWaveData:
+  - name: Wave1
+    listMiniWaveData:
+    - name: Wave1.1
+      spawnerID: 0
+      pathwayID: 0
+      spawnCooldown: 0.5
+      listMonsterID: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  - name: Wave2
+    listMiniWaveData:
+    - name: Wave2.1
+      spawnerID: 0
+      pathwayID: 0
+      spawnCooldown: 0.5
+      listMonsterID: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  - name: Wave3
+    listMiniWaveData:
+    - name: Wave2.1
+      spawnerID: 2
+      pathwayID: 4
+      spawnCooldown: 0.5
+      listMonsterID: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  - name: Wave4
+    listMiniWaveData:
+    - name: Wave4.1
+      spawnerID: 2
+      pathwayID: 4
+      spawnCooldown: 0.5
+      listMonsterID: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  - name: Wave5
+    listMiniWaveData:
+    - name: Wave5.1
+      spawnerID: 1
+      pathwayID: 2
+      spawnCooldown: 0.5
+      listMonsterID: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  - name: Wave6
+    listMiniWaveData:
+    - name: Wave6.1
+      spawnerID: 1
+      pathwayID: 2
+      spawnCooldown: 0.5
+      listMonsterID: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  - name: Wave7
+    listMiniWaveData:
+    - name: Wave7.1
+      spawnerID: 1
+      pathwayID: 2
+      spawnCooldown: 0.5
+      listMonsterID: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  - name: Wave8
+    listMiniWaveData:
+    - name: Wave8.1
+      spawnerID: 2
+      pathwayID: 4
+      spawnCooldown: 0.5
+      listMonsterID: 010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  - name: Wave9
+    listMiniWaveData:
+    - name: Wave8.1
+      spawnerID: 0
+      pathwayID: 0
+      spawnCooldown: 0.5
+      listMonsterID: 010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  - name: Wave10
+    listMiniWaveData:
+    - name: Wave10.1
+      spawnerID: 0
+      pathwayID: 0
+      spawnCooldown: 0.5
+      listMonsterID: 010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  - name: Wave11
+    listMiniWaveData:
+    - name: Wave11.1
+      spawnerID: 0
+      pathwayID: 0
+      spawnCooldown: 0.5
+      listMonsterID: 020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000
+    - name: Wave11.2
+      spawnerID: 2
+      pathwayID: 4
+      spawnCooldown: 0.5
+      listMonsterID: 010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+    - name: Wave11.3
+      spawnerID: 1
+      pathwayID: 2
+      spawnCooldown: 0.5
+      listMonsterID: 020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000
+  - name: Wave12
+    listMiniWaveData:
+    - name: Wave12.1
+      spawnerID: 0
+      pathwayID: 0
+      spawnCooldown: 0.5
+      listMonsterID: 020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000
+    - name: Wave12.2
+      spawnerID: 2
+      pathwayID: 4
+      spawnCooldown: 0.5
+      listMonsterID: 010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+    - name: Wave12.3
+      spawnerID: 1
+      pathwayID: 2
+      spawnCooldown: 0.5
+      listMonsterID: 020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000
+    - name: Wave12.4
+      spawnerID: 1
+      pathwayID: 3
+      spawnCooldown: 0.5
+      listMonsterID: 020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000
+  - name: Wave13
+    listMiniWaveData:
+    - name: Wave13.1
+      spawnerID: 0
+      pathwayID: 0
+      spawnCooldown: 0.5
+      listMonsterID: 020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000
+    - name: Wave13.2
+      spawnerID: 2
+      pathwayID: 4
+      spawnCooldown: 0.5
+      listMonsterID: 010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+    - name: Wave13.3
+      spawnerID: 1
+      pathwayID: 2
+      spawnCooldown: 0.5
+      listMonsterID: 0200000002000000020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000
+    - name: Wave13.4
+      spawnerID: 1
+      pathwayID: 3
+      spawnCooldown: 0.5
+      listMonsterID: 020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000
+  - name: Wave14
+    listMiniWaveData:
+    - name: Wave14.1
+      spawnerID: 0
+      pathwayID: 1
+      spawnCooldown: 0.5
+      listMonsterID: 020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000
+    - name: Wave14.2
+      spawnerID: 2
+      pathwayID: 5
+      spawnCooldown: 0.5
+      listMonsterID: 010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+    - name: Wave14.4
+      spawnerID: 1
+      pathwayID: 2
+      spawnCooldown: 0.5
+      listMonsterID: 0200000002000000020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000
+    - name: Wave14.4
+      spawnerID: 1
+      pathwayID: 3
+      spawnCooldown: 0.5
+      listMonsterID: 020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000
